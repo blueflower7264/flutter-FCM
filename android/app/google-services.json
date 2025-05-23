@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "1234567",
-    "project_id": "flutter-push-notificatio-baf46",
-    "storage_bucket": "flutter-push-notificatio-baf46.appspot.com"
+    "project_number": "10891557721",
+    "project_id": "flutterfcm-1b857",
+    "storage_bucket": "flutterfcm-1b857.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1234567:android:1449523220ec3631234567",
+        "mobilesdk_app_id": "1:10891557721:android:c62be2624046eb0ea5ea48",
         "android_client_info": {
           "package_name": "com.vsp.flutter_notification"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "1234567-3hm7i5d1f6723nj7l4dlcuq123456789.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBBoMFRnHFiMbWlCeR_JuXbH123456789"
+          "current_key": "AIzaSyCDlV-SMwkh70eWfHMBCQ7aqK4gWOX26wk"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "1234567-3hm7i5d1f6723nj7l4dlcuq123456789.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

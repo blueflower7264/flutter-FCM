@@ -9,10 +9,10 @@ import 'package:flutter_notification/home.dart';
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp(
       options: FirebaseOptions(
-        apiKey: 'AIzaSyBBoMFRnHFiMbWlCeR_JuXbH123456789',
-        appId: '1:1234567:android:1449523220ec3631234567',
+        apiKey: 'AIzaSyCDlV-SMwkh70eWfHMBCQ7aqK4gWOX26wk',
+        appId: '1:10891557721:android:c62be2624046eb0ea5ea48',
         messagingSenderId: 'sendid',
-        projectId: 'flutter-push-notificatio-baf46',
+        projectId: 'flutterfcm-1b857',
       )
   );
 }
@@ -38,10 +38,10 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: FirebaseOptions(
-        apiKey: 'AIzaSyBBoMFRnHFiMbWlCeR_JuXbH123456789',
-        appId: '1:1234567:android:1449523220ec3631234567',
+        apiKey: 'AIzaSyCDlV-SMwkh70eWfHMBCQ7aqK4gWOX26wk',
+        appId: '1:10891557721:android:c62be2624046eb0ea5ea48',
         messagingSenderId: 'sendid',
-        projectId: 'flutter-push-notificatio-baf46',
+        projectId: 'flutterfcm-1b857',
       )
   );
 

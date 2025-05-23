@@ -7,7 +7,14 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_notification/home.dart';
 
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+      options: FirebaseOptions(
+        apiKey: 'AIzaSyBBoMFRnHFiMbWlCeR_JuXbH123456789',
+        appId: '1:1234567:android:1449523220ec3631234567',
+        messagingSenderId: 'sendid',
+        projectId: 'flutter-push-notificatio-baf46',
+      )
+  );
 }
 
 AndroidNotificationChannel? channel;
@@ -29,7 +36,14 @@ void notificationTapBackground(NotificationResponse notificationResponse) {
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+      options: FirebaseOptions(
+        apiKey: 'AIzaSyBBoMFRnHFiMbWlCeR_JuXbH123456789',
+        appId: '1:1234567:android:1449523220ec3631234567',
+        messagingSenderId: 'sendid',
+        projectId: 'flutter-push-notificatio-baf46',
+      )
+  );
 
   messaging = FirebaseMessaging.instance;
 
